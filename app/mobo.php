@@ -11,7 +11,7 @@ if($link){
     }
     else {
       echo json_encode($result);
-      //mysqli_free_result($result);
+      mysqli_free_result($result);
     }
   }
   else{
