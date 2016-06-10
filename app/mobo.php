@@ -1,6 +1,6 @@
 <?php
 $number = $_GET['number'];
-$link = mysqli_connect('localhost', 'u281253775_app', 'mobo_pass', 'u281253775_mobo');
+$link = mysqli_connect('mysql.hostinger.in', 'u999389855_mobo', 'u999389855_app', 'ganji93!@');
 if($link){
   $stmt = "SELECT * FROM info WHERE number='$number'";
   $query = mysqli_query($link,$stmt);
